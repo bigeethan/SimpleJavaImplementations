@@ -3,6 +3,9 @@ public class Inheritance extends Parent {
         Inheritance child = new Inheritance();
 
         child.printWord();
+        
+        child.sentence = "hello world 2";
+        System.out.println(child.sentence);
     }
 }
 
