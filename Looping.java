@@ -19,6 +19,6 @@ public class Looping {
         for(int i = 0; i < numbers.length; i++) {
             sum += numbers[i];
         }
-        System.out.println("\nSum: "sum);
+        System.out.println("\nSum: " + sum);
     }
 }
